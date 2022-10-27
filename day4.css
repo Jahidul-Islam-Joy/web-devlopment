@@ -1,0 +1,131 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 90px;
+    background: aqua;
+    }
+    .logo{
+        padding: 10px;
+        float: left;
+    }
+    .logo img{
+        width: 85%;
+        height: 85%;
+        display: inline-block;
+    }
+    .menu{
+        float: right;
+        padding-top: 10px;
+    
+    
+    }
+    .menu ul{
+        list-style: none;
+    }
+    .menu ul li {
+        display: inline-block;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        padding-right: 20px;
+    }
+    .menu ul li a:hover{
+        background: rgb(30, 255, 0);
+        padding:10px;
+        color:rgb(245, 6, 118);
+        border-radius: 20px;
+    }
+    /* Header Part end */
+    /* Header Part start */
+    .slider{
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        background: linear-gradient(rgba(214, 214, 198, 0.8),rgba(200, 200, 187, 0.448) ),  url(./Lisa+Munro+Website+Header+\(1200+x+600+px\).png);
+        background-repeat: no-repeat;
+        background-size: fit;
+        background-position:center ;
+    }
+    .slider h1 {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        color: rgb(11, 51, 227);
+        text-align: center;
+        font-style: bold;
+        font-style:italic;
+    }
+    .slider p {
+        position: absolute;
+        top: 36%;
+        left: 30%;
+        color: rgb(214, 20, 65);
+        text-align: center;
+        font-size: 17px;
+    }
+    .slider a {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+        text-decoration: none;
+        border: 1px solid slateblue;
+    
+        padding: 10px 25px;
+        color: blue;
+        font-size: 25px;
+        background: yellowgreen;
+        border-radius: 20px;
+    }
+    
+    /* Header Part end */
+
+    /* hero part st */
+
+    .hero{
+        width: 1200px;
+        margin: auto;
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 20px;
+       
+        
+
+    }
+    span{
+        color: red;
+    }
+    .card{
+        text-align: center;
+        padding: 20px;
+        background: aqua;
+        border-radius: 20px;
+    }
+    .card a{
+    
+        background-color: rgb(236, 236, 12);
+        border-radius: 25px;
+        font-size: 15px;
+        border: 1px solid red;
+        padding: 5px 15px;
+        color: red;
+
+
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgb(24, 15, 1);
+        border-radius: 50%;
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,auto));
+        gap: 5px;
+       
+    }
+
+    /* hero part end */
+
+   
