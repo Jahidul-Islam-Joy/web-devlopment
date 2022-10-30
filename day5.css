@@ -1,0 +1,218 @@
+/*Header Part Start*/
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 120px;
+    background: skyblue;
+    
+    }
+    
+    .logo{
+        padding: 15px;
+        float: left;
+    
+    }
+    
+    .logo img{
+        width: 40%;
+        height: 40%;
+    
+    }
+    
+    .menu{
+        float: right;
+        padding-top: 15px;
+    
+    }
+    
+    .menu ul{
+        list-style: none;
+    
+    }
+    
+    .menu ul li{
+        display: inline-block;
+    
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        font-size: 25px;
+        padding-right: 20px;
+    
+    }
+    
+    .menu ul li a:hover{
+        background: red;
+        padding: 10px;
+        color: midnightblue;
+    
+    }
+    /* Header Part End */
+    
+    /* Slider Part Start */
+    .slider{
+        width: 1200px;
+        margin: 0 auto;
+        height: 400px;
+        background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(./Lisa+Munro+Website+Header+\(1200+x+600+px\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .slider h1{
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        color: darkred;
+        text-align: center;
+    
+    }
+    
+    .slider p{
+        position: absolute;
+        top: 37%;
+        left: 15%;
+        color: black;
+        text-align: center;
+        font-size: 17px;
+    
+    }
+    .slider a{
+        position: absolute;
+        top: 56%;
+        left: 24%;
+        text-decoration: none;
+        border: 1px solid green;
+        padding: 10px 25px;
+        color: red;
+        font-size: 10px;
+        background: yellow;
+        border-radius: 25px;
+
+    
+    }
+    .slider a:hover{
+        color: blueviolet;
+        background: skyblue;
+    }
+    /* Slider Part End */
+    
+    /* Hero Part Start */
+    .Hero{
+    width: 1200px;
+    margin: 0 auto;
+    
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 2px;
+        
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+        gap: 3px;
+        
+    
+    }
+    span{
+        color: goldenrod;
+    
+    }
+    .card{
+        text-align: center;
+        padding: 20px;
+        background: lightgreen;
+         border-radius: 20px; 
+    
+    }
+    .card a{
+        border: 1px solid green;
+        padding: 5px 17px;
+        color: red;
+        font-size: 15px;
+        background: yellow;
+        border-radius: 25px;
+        text-decoration: none;
+        
+    
+    }
+    .card a:hover{
+        color: blueviolet;
+        background: skyblue;
+    }
+    .card img{
+        width: 90px;
+        height: 90px;
+        /* border: 3px solid rgb(112, 244, 114); */
+        border-radius: 50%;
+    }
+    .animate{
+        animation: .1s DPI linear infinite;
+        position: relative;
+    }
+    @keyframes DPI{
+        /* from{
+            background-color: blueviolet;
+        }to{
+            background-color:skyblue;
+        } */
+         0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;} 
+
+        /* 0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;} */
+    }
+    /* Hero Part End */
+    footer{
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .footer-main{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+        gap: 50px;
+
+    }
+    .block img{
+        padding-right: 20px;
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 5px;
+    
+    }
+    .block{
+        padding: 10px;
+        background-color: skyblue;
+        grid-template-rows: repeat(auto-fit,minmax(20px,auto));
+        display: grid;
+        text-align: center;
+    }
+    .social a{
+        position: relative;
+        left: 10%;
+        text-decoration: none;
+
+
+    }
+    .block a{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 7%;
+    }
+    .social a:hover{
+        color: rgb(235, 4, 112);
+        border: 10px;
+    }
+   
+        
+    
