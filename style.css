@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+/*  */
+/* <!-- top br st  */
+.topbar{
+    background: #9E5BBA;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 2px solid red;
+
+}
+.top_right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: white;
+    text-decoration: none;
+}
+
+/*  <!-- top br st --> */
+/*  */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+
+}
+.logo_search input{
+    width: 65%;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.logo_search button{
+    border-radius: 15px;
+    font-size: 13px;
+}
+button{
+    font-size: 8px;
+    padding: 3px 7px;
+    border:1px solid rgb(231, 76, 14);
+    border-radius: 5%;
+    background: rgba(128, 128, 128, 0.527);
+    
+}
+/*  */
+.logo_right{
+   padding-top: 30px;
+}
+.logo1{
+border-right: 1px solid rgb(214, 148, 148);
+padding-right: 5px;
+
+}
+.logo2{
+    padding-left: 5px;
+}
